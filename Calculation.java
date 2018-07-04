@@ -9,7 +9,8 @@ public class Calculation {
             if(max<arr[i])  
                 max=arr[i];  
           x++;
+          x--;
         }  
-        return max;  
+        return max; 
     }  
 } 
