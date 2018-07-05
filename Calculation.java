@@ -13,4 +13,10 @@ public class Calculation {
 			System.out.println("Checking");
         return max; 
     }  
+	
+	public static int findCube(int num)
+	{
+		int cube = num * num * num;
+		return cube;
+	}
 } 
