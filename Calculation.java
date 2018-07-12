@@ -16,6 +16,7 @@ public class Calculation {
 	
 	public static int findCube(int num)
 	{
+		int x=0;
 		int cube = num * num * num;
 		return cube;
 	}
