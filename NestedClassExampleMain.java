@@ -15,6 +15,7 @@ public class NestedClassExampleMain {
         // Instantiation and use inside the method.
         LocalInnerClass local = new LocalInnerClass();
         local.printLocalInnerClass();
+        System.out.println("Hiiii");
     }
 
     public static void main(String[] args) {
