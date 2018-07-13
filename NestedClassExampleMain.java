@@ -13,12 +13,7 @@ public class NestedClassExampleMain {
             }
         }
         
-        class LocalInnerClass1 {
-            public void printLocalInnerClass1() {
-                System.out.println("A new local inner class1!");
-                System.out.println("Hiiii");
-            }
-        }
+        
         
         // Instantiation and use inside the method.
         LocalInnerClass local = new LocalInnerClass();
@@ -64,5 +59,11 @@ public class NestedClassExampleMain {
         // and from there we use it as any other top-level class.
         OuterWithStaticInner.InnerClass staticInner = new OuterWithStaticInner.InnerClass();
         staticInner.printStaticInnerClass();
+    }
+}
+class LocalInnerClass1 {
+    public void printLocalInnerClass1() {
+        System.out.println("A new local inner class1!");
+        System.out.println("Hiiii");
     }
 }
