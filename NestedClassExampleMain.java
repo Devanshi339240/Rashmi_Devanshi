@@ -9,6 +9,7 @@ public class NestedClassExampleMain {
         class LocalInnerClass {
             public void printLocalInnerClass() {
                 System.out.println("A new local inner class!");
+                System.out.println("Hiiii");
             }
         }
         
