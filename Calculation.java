@@ -20,5 +20,7 @@ public class Calculation {
 		int x=0,y=0;
 		int cube = num * num * num;
 		return y++;
+		int z=0;
+		z++;
 	}
 } 
