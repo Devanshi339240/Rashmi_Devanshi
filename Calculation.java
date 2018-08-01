@@ -9,7 +9,7 @@ public class Calculation {
         for(int i=1;i<arr.length;i++){  
             if(max<arr[i])  
                 max=arr[i];  
-		
+		i++;
         } 
 			System.out.println("Checking");
         return max; 
