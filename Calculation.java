@@ -9,7 +9,7 @@ public class Calculation {
         for(int i=1;i<arr.length;i++){  
             if(max<arr[i])  
                 max=arr[i];  
-		i++;
+		i=i+1;
         } 
 			System.out.println("Checking");
         return max; 
@@ -17,10 +17,10 @@ public class Calculation {
 	
 	public static int findCube(int num)
 	{
-		int x=0,y=0;
+		int x=0,y=0,z=0;
+		z++;
 		int cube = num * num * num;
 		return y++;
 		int z=0;
-		z++;
 	}
 } 
