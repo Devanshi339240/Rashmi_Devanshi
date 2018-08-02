@@ -18,7 +18,7 @@ public class Calculation {
         return max; 
     }  
 	
-	public static int findCube(int num)
+	public static int findCube(int num,int z)
 	{
 		int x=0,y=0,z=0;
 		z++;
