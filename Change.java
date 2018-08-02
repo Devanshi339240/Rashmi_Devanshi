@@ -6,7 +6,7 @@ public class Change {
 	y++;
 	int x=0;
 	y++;
-	x++;
+	x++,
 	y++;
 	}
     public static void main(String args[]){
