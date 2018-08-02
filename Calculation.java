@@ -29,8 +29,4 @@ public class Calculation {
 		z++;
 		System.out.println("Completed");
 	}
-	public static void main(String args[]){
-	int max,arr[]={10,5};
-	max=findMax(arr[]);
-	}
 } 
