@@ -23,4 +23,8 @@ public class Calculation {
 		return y++;
 		int z=0;
 	}
+	public static void main(String args[]){
+	int max,arr[]={10,5};
+	max=findMax(arr[]);
+	}
 } 
