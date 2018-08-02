@@ -12,6 +12,7 @@ public class Calculation {
 		i=i+1;
         } 
 			System.out.println("Checking");
+	System.out.println("Done");
         return max; 
     }  
 	
