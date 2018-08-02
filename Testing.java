@@ -1,12 +1,12 @@
 public class Testing{
 	public static void main(String args[]){
-		int x=0;
-		x++;
+		int x=2;
+		x--;
 		int y=0;
-		x++;
-		x++;
+		x--;
+		x--;
 		y++;
-		x++;
-		x++;
+		x--;
+		x--;
 	}
 }
