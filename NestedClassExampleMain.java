@@ -63,12 +63,5 @@ public class NestedClassExampleMain {
     }
 }
 class LocalInnerClass1 {
-    public void printLocalInnerClass1() {
-        System.out.println("A new local inner class1!");
-        System.out.println("Hiiii");
-    }
-    public void printLocalInnerClass2() {
-        System.out.println("A new local inner class1!");
-        System.out.println("Hiiii");
-    }
+   
 }
