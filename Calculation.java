@@ -4,16 +4,16 @@ public class Calculation {
   
     public static int findMax(int arr[]){  
         int max=arr[0];  
-        int x=1;
-	int y=1;
+        int x=2;
+	int y=2;
 	x++;
         for(int i=1;i<arr.length;i++){  
             if(max<arr[i])  
-                max=arr[i]+1;  
+                max=arr[i];  
 		i=i+1;
         } 
 			System.out.println("Checking");
-	System.out.println("Done!!!");
+	System.out.println("Done");
         return max; 
     }  
 	
