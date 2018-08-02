@@ -9,8 +9,7 @@ public class Calculation {
 	x++;
         for(int i=1;i<arr.length;i++){  
             if(max<arr[i])  
-                max=arr[i];
-		max++;  
+                max=arr[i];  
 		i=i+1;
         } 
 			System.out.println("Checking");
