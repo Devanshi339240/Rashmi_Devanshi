@@ -1,7 +1,7 @@
 package calc;
   
 public class Change {  
-    public static void min(){
+    public static void maximum(){
 	int y=0;
 	y++;
 	int x=0;
